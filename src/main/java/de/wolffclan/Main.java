@@ -7,7 +7,7 @@ import java.util.Optional;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Java Stream\n------------");
+        System.out.println("Java Stream \n------------");
 
         List<Integer> ints = new ArrayList<>();
         for (int i = 1; i <= 6; i++) {
@@ -29,7 +29,7 @@ public class Main {
                 .sorted(Comparator.reverseOrder())
                 .forEach(System.out::println);
 
-        System.out.println("Zahlen summieren \b------------");
+        System.out.println("Zahlen summieren \n------------");
 
         Optional<Integer> sumComplete = ints.stream()
                 .reduce(Integer::sum);
@@ -39,6 +39,13 @@ public class Main {
         else{
             System.out.println("Kein Wert vorhanden");
         }
+
+        System.out.println("Zahlen in neue Liste \b------------");
+
+        List<Integer> newList = ints.stream()
+                .toList();
+
+        System.out.println(newList);
 
     }
 }
