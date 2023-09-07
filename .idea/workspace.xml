@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8124208-8aa5-47f0-9942-9a18874bc35e" name="Changes" comment="added step 6 twice">
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/wolffclan/student/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e8124208-8aa5-47f0-9942-9a18874bc35e" name="Changes" comment="added Bonus">
       <change beforePath="$PROJECT_DIR$/src/main/java/de/wolffclan/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/wolffclan/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +60,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694075729031</updated>
-      <workItem from="1694075730682" duration="6560000" />
+      <workItem from="1694075730682" duration="7239000" />
     </task>
     <task id="LOCAL-00001" summary="added step 1-4">
       <option name="closed" value="true" />
@@ -97,7 +94,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694078615092</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added Bonus">
+      <option name="closed" value="true" />
+      <created>1694082816987</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694082816987</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +113,7 @@
     <MESSAGE value="change README" />
     <MESSAGE value="added step 6" />
     <MESSAGE value="added step 6 twice" />
-    <option name="LAST_COMMIT_MESSAGE" value="added step 6 twice" />
+    <MESSAGE value="added Bonus" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Bonus" />
   </component>
 </project>

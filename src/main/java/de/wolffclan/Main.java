@@ -50,6 +50,7 @@ public class Main {
         System.out.println("Zahlen in neue Liste \b------------");
 
         List<Integer> newList = ints.stream()
+                .sorted(Comparator.reverseOrder())
                 .toList();
 
         System.out.println(newList);
