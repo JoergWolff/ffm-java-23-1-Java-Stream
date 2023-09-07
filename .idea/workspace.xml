@@ -4,13 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8124208-8aa5-47f0-9942-9a18874bc35e" name="Changes" comment="change README">
+    <list default="true" id="e8124208-8aa5-47f0-9942-9a18874bc35e" name="Changes" comment="added step 6 twice">
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/wolffclan/student/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/students.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/de/wolffclan/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/wolffclan/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,6 +50,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -48,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694075729031</updated>
-      <workItem from="1694075730682" duration="2727000" />
+      <workItem from="1694075730682" duration="6560000" />
     </task>
     <task id="LOCAL-00001" summary="added step 1-4">
       <option name="closed" value="true" />
@@ -66,7 +81,23 @@
       <option name="project" value="LOCAL" />
       <updated>1694078198674</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added step 6">
+      <option name="closed" value="true" />
+      <created>1694078493273</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694078493273</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added step 6 twice">
+      <option name="closed" value="true" />
+      <created>1694078615092</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694078615092</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,6 +106,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added step 1-4" />
     <MESSAGE value="change README" />
-    <option name="LAST_COMMIT_MESSAGE" value="change README" />
+    <MESSAGE value="added step 6" />
+    <MESSAGE value="added step 6 twice" />
+    <option name="LAST_COMMIT_MESSAGE" value="added step 6 twice" />
   </component>
 </project>

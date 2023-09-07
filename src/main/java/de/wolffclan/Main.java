@@ -1,9 +1,16 @@
 package de.wolffclan;
 
+import de.wolffclan.student.Student;
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class Main {
     public static void main(String[] args) {
@@ -47,6 +54,22 @@ public class Main {
 
         System.out.println(newList);
 
+        System.out.println("\n Bonus \b------------");
 
+        try {
+            Stream<String> lines = Files.lines(Path.of("students.csv"));
+            List<Student> students = lines
+                    .skip(1)
+                    .filter(line -> !line.isEmpty())
+                    .distinct()
+                    .map(line -> line.split(","))
+                    .map(line -> new Student(Integer.parseInt(line[0]), line[1], line[2], Integer.parseInt(line[3])))
+                    .toList();
+            lines.close();
+            ;
+            System.out.println(students);
+        } catch (IOException e) {
+            System.out.println("Error");
+        }
     }
 }
